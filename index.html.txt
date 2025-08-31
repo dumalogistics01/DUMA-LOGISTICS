@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DUMA Transport & Shipping</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>DUMA Logistics</h1>
+    <p>specialist Empty container Movement</p>
+  </section>
+
+  <!-- About Section -->
+  <section class="about">
+    <h2>About Us</h2>
+    <p>We specialize in container movement, shipping logistics, and road transport across Nhava Sheva.</p>
+    <section id="services" class="services">
+    <h2><i class="fas fa-truck"></i> Our Core Services</h2>
+    <ul>
+      <li><i class="fas fa-box"></i> Empty Container Pickup & Delivery</li>
+      <li><i class="fas fa-road"></i> Port to Yard & Yard to Port Transfer</li>
+      <li><i class="fas fa-clock"></i> Safe & Timely Delivery of Containers</li>
+      <li><i class="fas fa-file-invoice-dollar"></i> Flexible Contracts & TEU-based Pricing</li>
+    </ul>
+  </section>
+
+    <img src="https://images.unsplash.com/photo-1581093448799-42b0d902fba1" alt="Container Shipping">
+  </section>
+
+  <!-- Services Section -->
+      </p>
+    </div>
+    <div class="service-box">
+      <img src="https://images.unsplash.com/photo-1578575437130-527eed3abbec" alt="Logistics Solutions">
+      <h3>Logistics Solutions</h3>
+      <p>End-to-end logistics services including warehousing & delivery.</p>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="gallery">
+    <h2>Our Fleet & Operations</h2>
+    <div class="gallery-container">
+    <img src="https://images.unsplash.com/photo-1578575437130-527eed3abbec" alt="Logistics Solutions">
+    <img src="https://images.unsplash.com/photo-1577874103803-bf6a831511e1?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTY2MjIyMjV8&ixlib=rb-4.1.0&q=85" alt="Logistics Solutions">
+    <img src="https://images.unsplash.com/photo-1725100611220-0426d0c7c017?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NTY2MjIyNDB8&ixlib=rb-4.1.0&q=85">
+    </div>
+  </section>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DUMA Fleet Slider</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+    }
+
+    h2 {
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    .slider {
+      position: relative;
+      width: 90%;
+      max-width: 1000px;
+      margin: auto;
+      overflow: hidden;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    }
+
+    .slides {
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+    }
+
+    .slides img {
+      width: 100%;
+      border-radius: 15px;
+    }
+
+    /* Buttons */
+    .prev, .next {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: rgba(0,0,0,0.5);
+      color: white;
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+      font-size: 18px;
+      border-radius: 50%;
+    }
+    .prev { left: 10px; }
+    .next { right: 10px; }
+  </style>
+</head>
+<body>
+
+  <h2>🚚 Our Fleet (Truck & Trailer)</h2>
+
+  <div class="slider">
+    <div class="slides">
+      <img src="https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=1000&q=85" alt="Truck 1">
+      <img src="https://images.unsplash.com/photo-1607962837359-5e7d6d2dcbf5?auto=format&fit=crop&w=1000&q=85" alt="Truck 2">
+      <img src="https://images.unsplash.com/photo-1625231334164-350a1479a9d5?auto=format&fit=crop&w=1000&q=85" alt="Truck 3">
+      <img src="https://images.unsplash.com/photo-1505839673365-e3971f8d9184?auto=format&fit=crop&w=1000&q=85" alt="Truck 4">
+    </div>
+    <button class="prev" onclick="moveSlide(-1)">❮</button>
+    <button class="next" onclick="moveSlide(1)">❯</button>
+  </div>
+
+  <script>
+    let index = 0;
+    function moveSlide(step) {
+      const slides = document.querySelector(".slides");
+      const total = slides.children.length;
+      index = (index + step + total) % total;
+      slides.style.transform = `translateX(-${index * 100}%)`;
+    }
+  </script>
+
+</body>
+</html>
+
+
+  <!-- Contact Section -->
+  <section class="contact">
+    <h2>Contact Us</h2>
+    <p>Email: dumalogistics01@gmail.com</p>
+    <p>Phone: +91 7039423001</p>
+    <p>Location: plot no 0682 KWC kalamboli Near Bima Complex,Navi Mumbai, India</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 DUMA Logistics. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
